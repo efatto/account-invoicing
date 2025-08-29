@@ -7,7 +7,7 @@
     "summary": "In the supplier invoice, automatically update all products "
     "whose discounts on the line is different from "
     "the supplier discounts",
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.0.1",
     "category": "Accounting & Finance",
     "website": "https://github.com/OCA/account-invoicing",
     "author": "GRAP,Odoo Community Association (OCA)",
@@ -19,7 +19,7 @@
         "purchase_triple_discount",
     ],
     "installable": True,
-    "auto_install": True,
+    "auto_install": False,
     "data": [
         "wizard/wizard_update_invoice_supplierinfo.xml",
     ],
